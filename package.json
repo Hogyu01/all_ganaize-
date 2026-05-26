@@ -1,0 +1,13 @@
+{
+  "name": "allganize-llm-pm-application-pdf",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HTML/CSS/JavaScript 기반 올거나이즈 LLM PM 지원서 PDF 생성 프로젝트",
+  "scripts": {
+    "postinstall": "playwright install chromium",
+    "pdf": "node print.js"
+  },
+  "dependencies": {
+    "playwright": "^1.53.0"
+  }
+}
